@@ -1,0 +1,29 @@
+.menu-item
+{
+    padding: 10px 20px;
+}
+.menu-item:hover
+{
+    background-color: #ece7df;
+}
+
+ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+li
+{
+    cursor: pointer;
+    list-style-type: none;
+    white-space: nowrap;
+    border-top: 1px dashed #a5a4a1;
+}
+
+footer
+{
+    cursor: pointer;
+    padding: 10px 35px;
+    border-top: 1px solid #e1ddd8;
+    background: #D8D0C4;
+}
