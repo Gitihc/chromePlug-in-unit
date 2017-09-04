@@ -24,7 +24,9 @@ function initPage() {
                 idx: (i + 1),
                 url: s
             }
-            superVideoInterface.push(obj);
+            if (obj.url.length > 0) {
+                superVideoInterface.push(obj);
+            }
         }
         window.localStorage.setItem('superVideoInterface', JSON.stringify(superVideoInterface));
     });
